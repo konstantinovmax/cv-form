@@ -1,0 +1,55 @@
+.gender {
+    margin: 0 0 40px 0;
+}
+
+.gender__title {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 38px;
+    color: #262626;
+}
+
+.gender__container {
+    margin: 24px 0 0 0;
+    display: flex;
+}
+
+.gender__radio-container {
+    display: flex;
+    align-items: center;
+    margin: 0 40px 0 0;
+}
+
+.gender__radio-container:last-of-type {
+    margin: 0;
+}
+
+.gender__radio {
+    margin: 0 8px 0 0;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #D9D9D9;
+}
+
+.gender__radio-title {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
+}
+
+@media screen and (min-width: 620px) {
+    .gender {
+        margin: 0 0 48px 0;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .gender__radio-container {
+        margin: 0 108px 0 0;
+    }
+}

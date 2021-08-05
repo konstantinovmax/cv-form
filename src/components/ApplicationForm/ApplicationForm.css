@@ -1,0 +1,74 @@
+.app-form {
+    margin: 62px 16px 48px 16px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.app-form__title {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 38px;
+    color: #262626;
+}
+
+.app-form__checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.app-form__checkbox {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #D9D9D9;
+    margin: 0 8px 0 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.app-form__checkbox-title {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #262626;
+}
+
+.app-form__checkbox-link {
+    color: #2F80ED;
+    text-decoration: underline;
+}
+
+.app-form__submit-button {
+    margin: 40px 0 0 0;
+    background-color: #E8E8E8;
+    width: 100%;
+    height: 42px;
+    color: #BCBCBC;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1100px) {
+    .app-form {
+        margin: 120px 256px 88px 256px;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .app-form__title {
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .app-form__submit-button {
+        margin: 48px 0 0 0;
+        width: 359px;
+        height: 40px;
+    }
+}
