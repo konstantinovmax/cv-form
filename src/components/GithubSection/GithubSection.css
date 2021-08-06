@@ -13,6 +13,7 @@
 
 .github__container {
     margin: 24px 0 0 0;
+    position: relative;
 }
 
 .github__input-name {
@@ -39,5 +40,34 @@
     font-size: 16px;
     line-height: 24px;
     color: #595959;
+}
 
+.github__input:hover {
+    border: 1px solid #40A9FF;
+}
+
+.github__input:focus {
+    border: 1px solid #40A9FF;
+    box-shadow: 0px 0px 4px rgba(24, 144, 255, 0.5);
+}
+
+.github__input::placeholder {
+    color: #BFBFBF;
+}
+
+.github__input_type_error {
+    color: #F5222D;
+    border: 1px solid #F5222D;
+}
+
+.github__input-error {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    margin: 2px 0 0 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #F5222D;
 }

@@ -18,10 +18,6 @@
     opacity: 1;
 }
 
-.modal_type_success-modal {
-
-}
-
 .modal__container {
     width: 90%;
     height: 60%;
@@ -48,12 +44,6 @@
     height: 576px;
 }
 
-@media screen and (min-width: 1100px) {
-    .modal__container {
-        
-    }
-}
-
 @media screen and (min-width: 620px) {
     .modal__container_type_politic-modal {
         padding: 40px 40px 58px 40px;
@@ -75,6 +65,6 @@
 @media screen and (min-width: 1100px) {
     .modal__container_type_politic-modal {
         max-width: 758px;
-        height: 800px;
+        height: 80%;
     }
 }
