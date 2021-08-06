@@ -1,0 +1,71 @@
+.success-modal__title {
+    margin: 16px 0 0 0;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #262626;
+}
+
+.success-modal__text {
+    margin: 8px 0 0 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #262626;
+}
+
+.success-modal__submit-button {
+    margin: 32px 0 0 0;
+    background-color: #1890FF;
+    width: 100%;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.success-modal__submit-button:hover {
+    opacity: 0.7;
+    transition: ease .3s;
+}
+
+.success-modal__close-button {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../../images/close-button.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+}
+
+.success-modal__close-button:hover {
+    opacity: 0.7;
+    transition: ease .3s;
+}
+
+@media screen and (min-width: 620px) {
+    .success-modal__title {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .success-modal__close-button {
+        display: block;
+    }
+}

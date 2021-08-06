@@ -17,7 +17,7 @@ function PersonalDataSection() {
                 <p className="pers-data__input-name">Электронная почта *</p>
                 <input type="email" name="email" className="pers-data__input" placeholder="Электронная почта" required />
             </div>
-            <button className="pers-data__cv-import">Загрузить резюме</button>
+            <button type="button" className="pers-data__cv-import-button">Загрузить резюме</button>
         </div>
     </div>
   );

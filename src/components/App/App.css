@@ -1,7 +1,7 @@
-/* header, span, div, nav, p, h1, h2, h3, h4, a, section, ul, li, img, iframe, input, textarea, button {
+header, span, div, nav, p, h1, h2, h3, h4, a, section, ul, li, img, iframe, input, textarea, button {
   outline: 1px solid;
   outline-color: red;
-} */
+}
 
 .app {
   margin: 0;
@@ -14,8 +14,20 @@
   margin: 0 auto;
   min-width: 375px;
   max-width: 1440px;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #BCBCBC;
+  border-radius: 10px;
+  min-height: 169px;
 }

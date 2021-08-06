@@ -1,0 +1,91 @@
+.politic-modal__title {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #262626;
+}
+
+.politic-modal__text-container {
+    margin: 32px 0 0 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.politic-modal__subtitle {
+    margin: 32px 0 0 0;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 38px;
+    color: #262626;
+}
+
+.politic-modal__subtitle:first-of-type {
+    margin: 0;
+}
+
+.politic-modal__text {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #262626;
+}
+
+.politic-modal__submit-button {
+    margin: 20px 0 0 0;
+    background-color: #1890FF;
+    width: 100%;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.politic-modal__submit-button:hover {
+    opacity: 0.7;
+    transition: ease .3s;
+}
+
+.politic-modal__close-button {
+    position: absolute;
+    top: 20px;
+    right: 21px;
+    width: 15px;
+    height: 15px;
+    background-image: url(../../images/close-button.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+}
+
+.politic-modal__close-button:hover {
+    opacity: 0.7;
+    transition: ease .3s;
+}
+
+@media screen and (min-width: 620px) {
+    .politic-modal__submit-button {
+        margin: 48px 0 0 0;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .politic-modal__close-button {
+        top: 44px;
+        right: 44px;
+    }
+}

@@ -28,6 +28,11 @@
     cursor: pointer;
 }
 
+.app-form__checkbox:hover {
+    opacity: 0.7;
+    transition: ease .3s;
+}
+
 .app-form__checkbox-title {
     margin: 0;
     font-family: sans-serif;
@@ -37,9 +42,18 @@
     color: #262626;
 }
 
-.app-form__checkbox-link {
+.app-form__checkbox-button {
     color: #2F80ED;
     text-decoration: underline;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: inherit;
+}
+
+.app-form__checkbox-button:hover {
+    opacity: 0.7;
+    transition: ease .3s;
 }
 
 .app-form__submit-button {
