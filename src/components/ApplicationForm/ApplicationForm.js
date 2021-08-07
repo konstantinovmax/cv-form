@@ -1,5 +1,6 @@
 import './ApplicationForm.css';
 import React from 'react';
+import fileImage from '../../images/file-image.svg';
 
 function ApplicationForm(props) {
   const [firstName, setFirstName] = React.useState('');
@@ -18,6 +19,7 @@ function ApplicationForm(props) {
   const [urlDirty, setUrlDirty] = React.useState(false);
   const [checkbox, setCheckbox] = React.useState(false);
   const [formValid, setFormValid] = React.useState(false);
+  const [uploadedFile, setUploadedFile] = React.useState('');
 
   function blurHandler(e) {
     switch (e.target.name) {
@@ -76,6 +78,16 @@ function ApplicationForm(props) {
       }
   }
 
+  function handleUploadFile(e) {
+    e.preventDefault();
+    let file = e.target.files[0];
+    setUploadedFile(file);
+  }
+
+  function handleDeleteUploadedFile() {
+    setUploadedFile('');
+  }
+
   function handleUrlChange(e) {
     setUrl(e.target.value);
     const regExpUrl = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/.test(e.target.value); // eslint-disable-line
@@ -104,6 +116,7 @@ function ApplicationForm(props) {
     setFirstName('');
     setSecondName('');
     setEmail('');
+    setUploadedFile('');
     setCheckGender(null);
     setUrl('');
     setCheckbox(false);
@@ -169,7 +182,22 @@ function ApplicationForm(props) {
                     />
                     { (emailDirty && emailError) && <span id="pers-data-input-error" className="app-form__pers-data-input-error">{emailError}</span> }
                 </div>
-                <button type="button" className="app-form__pers-data-cv-import-button" />
+                {uploadedFile ? (
+                  <div className="app-form__pers-data-file-name-container" onClick={handleDeleteUploadedFile}>
+                    <div className="app-form__pers-data-file-image-name-container">
+                      <img className="app-form__pers-data-file-image" src={fileImage} alt="Иконка файла" />
+                      <p className="app-form__pers-data-file-name">{uploadedFile.name}</p>
+                    </div>
+                    <button type="reset" className="app-form__pers-data-file-delete-button" />
+                  </div>
+                ) : (
+                  <div className="app-form__pers-data-cv-import-container">
+                    <input type="file" id="input__file" className="app-form__pers-data-cv-import-input" onChange={handleUploadFile} />
+                    <label htmlFor="input__file" className="app-form__pers-data-cv-import-button" />
+                  </div>
+                )}
+                
+                
             </div>
         </section>
 
