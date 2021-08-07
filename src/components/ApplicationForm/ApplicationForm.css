@@ -14,6 +14,234 @@
     color: #262626;
 }
 
+.app-form__pers-data {
+    margin: 40px 0 40px 0;
+}
+
+.app-form__pers-data-title {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 38px;
+    color: #262626;
+}
+
+.app-form__pers-data-container {
+    margin: 24px 0 0 0;
+    display: grid;
+    gap: 24px;
+    align-items: flex-end;
+}
+
+.app-form__pers-data-input-container {
+    position: relative;
+}
+
+.app-form__pers-data-input-name {
+    max-width: 100%;
+    margin: 0 0 2px 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #262626;
+}
+
+.app-form__pers-data-input {
+    padding: 0 0 0 12px;
+    width: 100%;
+    height: 40px;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid #D9D9D9;
+
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
+    box-sizing: border-box;
+}
+
+.app-form__pers-data-input:hover {
+    border: 1px solid #40A9FF;
+}
+
+.app-form__pers-data-input:focus {
+    border: 1px solid #40A9FF;
+    box-shadow: 0px 0px 4px rgba(24, 144, 255, 0.5);
+}
+
+.app-form__pers-data-input::placeholder {
+    color: #BFBFBF;
+}
+
+.app-form__pers-data-input_type_error {
+    color: #F5222D;
+    border: 1px solid #F5222D;
+}
+
+.app-form__pers-data-input-error {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    margin: 2px 0 0 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #F5222D;
+}
+
+.app-form__pers-data-cv-import-button {
+    width: 100%;
+    height: 42px;
+    background-color: #F5F5F5;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
+    border: 1px solid #D9D9D9;
+    outline: none;
+    cursor: pointer;
+    background-image: url(../../images/import-file.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.app-form__pers-data-cv-import-button:hover {
+    opacity: 0.7;
+    transition: ease .3s;
+}
+
+.app-form__gender {
+    margin: 0 0 40px 0;
+}
+
+.app-form__gender-title {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 38px;
+    color: #262626;
+}
+
+.app-form__gender-container {
+    margin: 24px 0 0 0;
+    display: flex;
+}
+
+.app-form__gender-radio-container {
+    display: flex;
+    align-items: center;
+    margin: 0 40px 0 0;
+}
+
+.app-form__gender-radio-container:last-of-type {
+    margin: 0;
+}
+
+.app-form__gender-radio {
+    margin: 0 8px 0 0;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #D9D9D9;
+    cursor: pointer;
+}
+
+.app-form__gender-radio:hover {
+    opacity: 0.7;
+    transition: ease .3s;
+}
+
+.app-form__gender-radio-title {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #595959;
+}
+
+.app-form__github {
+    margin: 0 0 48px 0;
+}
+
+.app-form__github-title {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 38px;
+    color: #262626;
+}
+
+.app-form__github-container {
+    margin: 24px 0 0 0;
+    position: relative;
+}
+
+.app-form__github-input-name {
+    max-width: 256px;
+    margin: 0 0 2px 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #262626;
+}
+
+.app-form__github-input {
+    padding: 0 0 0 12px;
+    width: 256px;
+    height: 40px;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.app-form__github-input:hover {
+    border: 1px solid #40A9FF;
+}
+
+.app-form__github-input:focus {
+    border: 1px solid #40A9FF;
+    box-shadow: 0px 0px 4px rgba(24, 144, 255, 0.5);
+}
+
+.app-form__github-input::placeholder {
+    color: #BFBFBF;
+}
+
+.app-form__github-input_type_error {
+    color: #F5222D;
+    border: 1px solid #F5222D;
+}
+
+.app-form__github-input-error {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    margin: 2px 0 0 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #F5222D;
+}
+
 .app-form__checkbox-container {
     display: flex;
     align-items: center;
@@ -43,6 +271,7 @@
 }
 
 .app-form__checkbox-button {
+    padding: 0;
     color: #1890FF;
     text-decoration: underline;
     border: none;
@@ -94,6 +323,51 @@
         font-weight: 600;
     }
 }
+
+@media screen and (min-width: 620px) {
+    .app-form__pers-data {
+        margin: 48px 0 48px 0;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .app-form__pers-data-container {
+        grid-template-columns: repeat(2, 256px);
+        gap: 48px 80px;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .app-form__pers-data-input {
+        width: 256px;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .app-form__pers-data-input-name {
+        max-width: 256px;
+    }
+}
+
+@media sreen and (min-width: 620px) {
+    .app-form__pers-data-cv-import {
+        width: 256px;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .gender {
+        margin: 0 0 48px 0;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .gender__radio-container {
+        margin: 0 108px 0 0;
+    }
+}
+
+
 
 @media screen and (min-width: 620px) {
     .app-form__submit-button {
