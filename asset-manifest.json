@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mygento-test/static/css/main.a2ce4ba4.chunk.css",
+    "main.js": "/mygento-test/static/js/main.acdb16c7.chunk.js",
+    "main.js.map": "/mygento-test/static/js/main.acdb16c7.chunk.js.map",
+    "runtime-main.js": "/mygento-test/static/js/runtime-main.6db3670a.js",
+    "runtime-main.js.map": "/mygento-test/static/js/runtime-main.6db3670a.js.map",
+    "static/js/2.3cf6d9fa.chunk.js": "/mygento-test/static/js/2.3cf6d9fa.chunk.js",
+    "static/js/2.3cf6d9fa.chunk.js.map": "/mygento-test/static/js/2.3cf6d9fa.chunk.js.map",
+    "static/js/3.929e58ca.chunk.js": "/mygento-test/static/js/3.929e58ca.chunk.js",
+    "static/js/3.929e58ca.chunk.js.map": "/mygento-test/static/js/3.929e58ca.chunk.js.map",
+    "index.html": "/mygento-test/index.html",
+    "static/css/main.a2ce4ba4.chunk.css.map": "/mygento-test/static/css/main.a2ce4ba4.chunk.css.map",
+    "static/js/2.3cf6d9fa.chunk.js.LICENSE.txt": "/mygento-test/static/js/2.3cf6d9fa.chunk.js.LICENSE.txt",
+    "static/media/PoliticModal.css": "/mygento-test/static/media/close-button.a645c4f2.svg",
+    "static/media/ApplicationForm.css": "/mygento-test/static/media/import-file.aac5a5fb.svg",
+    "static/media/file-image.27b9ee68.svg": "/mygento-test/static/media/file-image.27b9ee68.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6db3670a.js",
+    "static/js/2.3cf6d9fa.chunk.js",
+    "static/css/main.a2ce4ba4.chunk.css",
+    "static/js/main.acdb16c7.chunk.js"
+  ]
+}
