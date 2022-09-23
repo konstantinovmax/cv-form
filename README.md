@@ -9,12 +9,12 @@
 3. React.js с применением функциональных компонентов и хуков
 4. Кастомная валидация формы
 
-**[Ссылка на проект (gh-pages)](https://konstantinovmax.github.io/mygento-test)**
+**[Ссылка на проект (gh-pages)](https://konstantinovmax.github.io/cv-form)**
 
 ---
 
 **Инструкция по развертыванию проекта**
 
-1. Клонировать репозиторий командой: `git clone https://github.com/konstantinovmax/mygento-test.git`
+1. Клонировать репозиторий командой: `git clone https://github.com/konstantinovmax/cv-form.git`
 2. Установить зависимости: `npm i`
 3. Запустить тестовую сборку на локальном сервере: `npm start`
