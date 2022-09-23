@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/mygento-test/static/css/main.a2ce4ba4.chunk.css",
-    "main.js": "/mygento-test/static/js/main.acdb16c7.chunk.js",
-    "main.js.map": "/mygento-test/static/js/main.acdb16c7.chunk.js.map",
-    "runtime-main.js": "/mygento-test/static/js/runtime-main.6db3670a.js",
-    "runtime-main.js.map": "/mygento-test/static/js/runtime-main.6db3670a.js.map",
-    "static/js/2.3cf6d9fa.chunk.js": "/mygento-test/static/js/2.3cf6d9fa.chunk.js",
-    "static/js/2.3cf6d9fa.chunk.js.map": "/mygento-test/static/js/2.3cf6d9fa.chunk.js.map",
-    "static/js/3.929e58ca.chunk.js": "/mygento-test/static/js/3.929e58ca.chunk.js",
-    "static/js/3.929e58ca.chunk.js.map": "/mygento-test/static/js/3.929e58ca.chunk.js.map",
-    "index.html": "/mygento-test/index.html",
-    "static/css/main.a2ce4ba4.chunk.css.map": "/mygento-test/static/css/main.a2ce4ba4.chunk.css.map",
-    "static/js/2.3cf6d9fa.chunk.js.LICENSE.txt": "/mygento-test/static/js/2.3cf6d9fa.chunk.js.LICENSE.txt",
-    "static/media/PoliticModal.css": "/mygento-test/static/media/close-button.a645c4f2.svg",
-    "static/media/ApplicationForm.css": "/mygento-test/static/media/import-file.aac5a5fb.svg",
-    "static/media/file-image.27b9ee68.svg": "/mygento-test/static/media/file-image.27b9ee68.svg"
+    "main.css": "/cv-form/static/css/main.a7e76ac8.chunk.css",
+    "main.js": "/cv-form/static/js/main.dd280b12.chunk.js",
+    "main.js.map": "/cv-form/static/js/main.dd280b12.chunk.js.map",
+    "runtime-main.js": "/cv-form/static/js/runtime-main.6e613ec4.js",
+    "runtime-main.js.map": "/cv-form/static/js/runtime-main.6e613ec4.js.map",
+    "static/js/2.3cf6d9fa.chunk.js": "/cv-form/static/js/2.3cf6d9fa.chunk.js",
+    "static/js/2.3cf6d9fa.chunk.js.map": "/cv-form/static/js/2.3cf6d9fa.chunk.js.map",
+    "static/js/3.929e58ca.chunk.js": "/cv-form/static/js/3.929e58ca.chunk.js",
+    "static/js/3.929e58ca.chunk.js.map": "/cv-form/static/js/3.929e58ca.chunk.js.map",
+    "index.html": "/cv-form/index.html",
+    "static/css/main.a7e76ac8.chunk.css.map": "/cv-form/static/css/main.a7e76ac8.chunk.css.map",
+    "static/js/2.3cf6d9fa.chunk.js.LICENSE.txt": "/cv-form/static/js/2.3cf6d9fa.chunk.js.LICENSE.txt",
+    "static/media/PoliticModal.css": "/cv-form/static/media/close-button.a645c4f2.svg",
+    "static/media/ApplicationForm.css": "/cv-form/static/media/import-file.aac5a5fb.svg",
+    "static/media/file-image.27b9ee68.svg": "/cv-form/static/media/file-image.27b9ee68.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6db3670a.js",
+    "static/js/runtime-main.6e613ec4.js",
     "static/js/2.3cf6d9fa.chunk.js",
-    "static/css/main.a2ce4ba4.chunk.css",
-    "static/js/main.acdb16c7.chunk.js"
+    "static/css/main.a7e76ac8.chunk.css",
+    "static/js/main.dd280b12.chunk.js"
   ]
 }
